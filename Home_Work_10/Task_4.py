@@ -32,7 +32,7 @@ class Fish(Animal):
             return "Средневодная рыба"
 
     def __str__(self):
-        return f"{super().__str__()} {self.depth()}"
+        return f"{super().__str__()} максимальна глубина обитания {self.max_depth} тип рыбы {self.depth()}"
 
 
 class Mammal(Animal):
